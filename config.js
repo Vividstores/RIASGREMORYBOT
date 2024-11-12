@@ -1,4 +1,4 @@
-//#RIAS
+I//#RIAS
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/c21ae479aab857b4f8006.jpg";
 global.devs = "2347088716112";
 global.sudo = process.env.SUDO || "2347088716112";
-global.owner = process.env.OWNER_NUMBER || "2348086541281";
+global.owner = process.env.OWNER_NUMBER || "2347088716112";
 global.style = process.env.STYLE || "1";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
